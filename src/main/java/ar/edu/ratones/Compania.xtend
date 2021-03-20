@@ -27,7 +27,7 @@ class Compania implements Inversion {
 	 * *****************************************************************
 	 */
 	override costo() {
-		totalRecaudacion * porcentajeRecaudacion 
+		this.totalRecaudacion * porcentajeRecaudacion 
 	}
 	
 	def getTotalRecaudacion() {
